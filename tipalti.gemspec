@@ -5,17 +5,16 @@ require_relative "lib/tipalti/version"
 Gem::Specification.new do |spec|
   spec.name = "tipalti"
   spec.version = Tipalti::VERSION
-  spec.authors = ["aaronchi"]
+  spec.authors = ["Aaron Chi"]
   spec.email = ["aaron.chi@magiclinks.com"]
 
-  spec.summary = "Tipalti Interface"
-  #spec.description = "TODO: Write a longer description or delete this line."
-  #spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Tipalti toolkit"
+  spec.description = "A Ruby toolkit for Tipalti Payments"
+  spec.homepage = "https://github.com/magiclinkstech/tipalti-ruby"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 2.5.1"
 
   #spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-
   #spec.metadata["homepage_uri"] = spec.homepage
   #spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
   #spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
